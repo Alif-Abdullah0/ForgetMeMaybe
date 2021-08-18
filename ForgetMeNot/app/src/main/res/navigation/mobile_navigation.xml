@@ -13,13 +13,23 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.forgetmenot.ui.dashboard.DashboardFragment"
+        android:name="com.example.forgetmenot.ui.accountability.AccountabilityFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_accountability" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.forgetmenot.ui.notifications.NotificationsFragment"
+        android:name="com.example.forgetmenot.ui.resources.ResourcesFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_resources" />
+    <fragment
+        android:id="@+id/newView1"
+        android:name="com.example.forgetmenot.ui.newView1.newView1"
+        android:label="fragment_new_view1"
+        tools:layout="@layout/fragment_new_view1" />
+    <fragment
+        android:id="@+id/newView2"
+        android:name="com.example.forgetmenot.ui.newView2.newView2"
+        android:label="fragment_new_view2"
+        tools:layout="@layout/fragment_new_view2" />
 </navigation>
