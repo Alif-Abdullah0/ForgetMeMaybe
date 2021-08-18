@@ -12,24 +12,24 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_accountability"
         android:name="com.example.forgetmenot.ui.accountability.AccountabilityFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_accountability"
         tools:layout="@layout/fragment_accountability" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_resources"
         android:name="com.example.forgetmenot.ui.resources.ResourcesFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_resources"
         tools:layout="@layout/fragment_resources" />
     <fragment
-        android:id="@+id/newView1"
-        android:name="com.example.forgetmenot.ui.newView1.newView1"
-        android:label="fragment_new_view1"
-        tools:layout="@layout/fragment_new_view1" />
+        android:id="@+id/navigation_adding"
+        android:name="com.example.forgetmenot.ui.adding.adding"
+        android:label="Adding"
+        tools:layout="@layout/fragment_adding" />
     <fragment
-        android:id="@+id/newView2"
-        android:name="com.example.forgetmenot.ui.newView2.newView2"
-        android:label="fragment_new_view2"
-        tools:layout="@layout/fragment_new_view2" />
+        android:id="@+id/navigation_competition"
+        android:name="com.example.forgetmenot.ui.competition.competition"
+        android:label="Competition"
+        tools:layout="@layout/fragment_competition" />
 </navigation>

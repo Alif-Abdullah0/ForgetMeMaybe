@@ -1,4 +1,4 @@
-package com.example.forgetmenot.ui.newView1;
+package com.example.forgetmenot.ui.competition;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.example.forgetmenot.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link newView1#newInstance} factory method to
+ * Use the {@link competition#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class newView1 extends Fragment {
+public class competition extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class newView1 extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public newView1() {
+    public competition() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class newView1 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment newView1.
+     * @return A new instance of fragment newView2.
      */
     // TODO: Rename and change types and number of parameters
-    public static newView1 newInstance(String param1, String param2) {
-        newView1 fragment = new newView1();
+    public static competition newInstance(String param1, String param2) {
+        competition fragment = new competition();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class newView1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_new_view1, container, false);
+        return inflater.inflate(R.layout.fragment_competition, container, false);
     }
 }
