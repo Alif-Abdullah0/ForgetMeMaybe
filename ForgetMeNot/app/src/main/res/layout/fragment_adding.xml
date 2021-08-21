@@ -13,17 +13,31 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_add_black_24dp"
+        android:drawableLeft="@drawable/ic_add_black_24dp"
         android:text="@string/sleep" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_add_black_24dp"
+        android:drawableLeft="@drawable/ic_add_black_24dp"
         android:text="@string/screen_time" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_add_black_24dp"
+        android:drawableLeft="@drawable/ic_add_black_24dp"
         android:text="@string/food" />
 </LinearLayout>
