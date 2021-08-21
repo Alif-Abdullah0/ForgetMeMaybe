@@ -17,7 +17,7 @@
         android:title="@string/title_resources" />
     <item
         android:id="@+id/navigation_adding"
-        android:icon="@android:drawable/ic_input_add"
+        android:icon="@drawable/ic_add_black_24dp"
         android:title="@string/title_adding" />
     <item
         android:id="@+id/navigation_competition"
