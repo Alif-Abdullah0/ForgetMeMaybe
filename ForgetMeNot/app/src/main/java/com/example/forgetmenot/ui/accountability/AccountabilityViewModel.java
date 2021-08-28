@@ -10,7 +10,7 @@ public class AccountabilityViewModel extends ViewModel {
 
     public AccountabilityViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is Accountability fragment");
     }
 
     public LiveData<String> getText() {
